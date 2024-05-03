@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:ALT-JS/ALT-JS.github.io.git
+	branch = main
