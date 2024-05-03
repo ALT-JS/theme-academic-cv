@@ -255,10 +255,10 @@ sections:
           icon_pack: fab
           name: DM Me
           link: 'https://twitter.com/altjasonspeed'
-        # - icon: skype
-        #   icon_pack: fab
-        #   name: Skype Me
-        #   link: 'skype:echo123?call'
+        - icon: envelope
+          icon_pack: fas
+          name: dujsh2022@shanghaitech.edu.cn
+          link: 'mailto:dujsh2022@shanghaitech.edu.cn'
         # - icon: video
         #   icon_pack: fas
         #   name: Zoom Me
