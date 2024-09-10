@@ -226,6 +226,39 @@ Best matching displacement for train.tif (Using blue channel as base image):
 For green channel: move 0 on x-axis, move 41 on y-axis.
 For red channel: move 29 on x-axis, move 85 on y-axis.
 
+##### Two result from Prokudin-Gorskii collection:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://s2.loli.net/2024/09/10/6y9vmReCZTaKJE3.jpg" alt="Stacked w/o simple alignment" width="400"><br>
+      <em>Stacked w/o simple alignment</em>
+    </td>
+    <td align="center">
+      <img src="https://s2.loli.net/2024/09/10/9wq5mNuAEvxgbc3.jpg" alt="Stacked w/ simple alignment" width="400"><br>
+      <em>Stacked w/ simple alignment</em>
+    </td>
+  </tr>
+</table>
+
+Best matching displacement for more.jpg (Using blue channel as base image):
+For green channel: move 2 on x-axis, move 4 on y-axis.
+For red channel: move 4 on x-axis, move 7 on y-axis.
+
+| ![canny_image_more2_b_edges.jpg](https://s2.loli.net/2024/09/10/qEjYsOtgfNWPJUx.jpg) | ![canny_image_more2_g_edges.jpg](https://s2.loli.net/2024/09/10/tWP1VDoXB52SNOl.jpg) | ![canny_image_more2_r_edges.jpg](https://s2.loli.net/2024/09/10/5WDsxVnoqHAc12j.jpg) |
+| ---- | ---- | ---- |
+| boy canny blue channel | boy canny green channel | boy canny red channel |
+
+
+| ![cropped_color_image_more2.jpg](https://s2.loli.net/2024/09/10/lk7wC8hDJLcitO5.jpg) | ![canny_aligned_color_image_more2.jpg](https://s2.loli.net/2024/09/10/N2IoiV5e8wLYyca.jpg) |
+| ---- | ---- |
+
+<p style="text-align: center;"><em>Picture Selected: boy</em></p>
+
+Best matching displacement for boy.tif (Using blue channel as base image):
+For green channel: move -14 on x-axis, move 45 on y-axis.
+For red channel: move -11 on x-axis, move 103 on y-axis.
+
 ## Part5: My debugging journey
 Although it's nothing important or difficult, I got a bad result on image pyramid implementation due to the false understanding of `np.roll` at first. It was not until I viewed the previous post when I realized that it wasn't the pictures that are hard to align, it was my function wrong. My Bells&Whistles is originally an attempt to rotate the picture to achieve alignment. But obviously, if the base method is wrong, there's no way for this attempt to be right.
 
