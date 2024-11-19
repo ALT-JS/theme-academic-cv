@@ -3,7 +3,7 @@
 title: Jiashen Du
 
 # Name pronunciation (optional)
-name_pronunciation: Jason Minazuki Du
+name_pronunciation: Jason Du
 
 # Full name (for SEO)
 first_name: Jiashen
@@ -37,15 +37,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: UCB COE Exchange program in Computer Science
+      institution: University of California, Berkeley
+      year: 2024
     - course: Undergrad in Computer Science
       institution: ShanghaiTech University
       year: 2022
     - course: High school undergrad
       institution: No.2 High School Of East China Normal University
       year: 2019
-    - course: UCB COE Exchange program in Computer Science
-      institution: University of California, Berkeley
-      year: 2024
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
