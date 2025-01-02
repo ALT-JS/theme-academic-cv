@@ -1,6 +1,7 @@
 ---
 title: 'COMPSCI 180 Project1'
 date: '2024-09-03'
+draft: true
 subtitle: 'Images of the Russian Empire: Colorizing the Prokudin-Gorskii photo collection'
 image:
   caption: 'Left: Canny & ImagePyramid tuned. Right: stacked without alignment.'

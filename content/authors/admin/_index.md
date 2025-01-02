@@ -21,8 +21,8 @@ role: Undergrad Student major in CS
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ShanghaiTech University
-    url: https://www.shanghaitech.edu.cn/
+  - name: University of California, Berkeley(now)
+    url: https://www.berkeley.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Artificial Intelligence, Deep Learning, Computer Vision and LLMs.
