@@ -121,5 +121,5 @@ social:
 highlight_name: true
 ---
 
-I’m a University student of SIST in ShanghaiTech University. My research interests include Artificial Intelligence, Deep Learning, Computer Vision and LLMs. I have independently finished two small projects for CASTIC, Tencent Rhinobird High School Scientific Training Program and Intel ISEF from high school. I’m currently working for a lab under VRVC, a branch of ShanghaiTech Visual and Data Intelligence Center.
+I’m a University student of SIST in ShanghaiTech University. My research interests include Artificial Intelligence, Deep Learning, Computer Vision and LLMs. I have independently finished two small projects for CASTIC, Tencent Rhinobird High School Scientific Training Program and Intel ISEF from high school.
 {style="text-align: justify;"}

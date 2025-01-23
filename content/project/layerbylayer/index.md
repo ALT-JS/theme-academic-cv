@@ -6,7 +6,7 @@ summary: This is a fundamental track project for COMPSCI194-196 LLM Agents and L
 date: '2025-01-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://github.com/ALT-JS/OthelloSAE'
+external_link: 'https://arxiv.org/abs/2501.07108'
 
 # image:
 #   caption: Photo by rawpixel on Unsplash
@@ -18,7 +18,7 @@ links:
   #   name: Follow
   #   url: https://twitter.com/georgecushen
 url_code: 'https://github.com/ALT-JS/OthelloSAE'
-url_pdf: 'https://github.com/ALT-JS/OthelloSAE/blob/main/ProjectPaper.pdf'
+url_pdf: 'https://arxiv.org/abs/2501.07108'
 url_slides: ''
 url_video: ''
 
