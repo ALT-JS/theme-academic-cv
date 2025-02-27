@@ -127,37 +127,38 @@ sections:
   #         url: ''
   #   design:
   #     columns: '2'
-  # - block: collection
-  #   id: posts
-  #   content:
-  #     title: Posts
-  #     subtitle: ''
-  #     text: ''
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       folders:
-  #         - post
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: compact
-  #     columns: '2'
+
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      columns: '2'
+      view: citation
+
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: Selected Projects
       filters:
         folders:
           - project
@@ -189,31 +190,35 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
+  
   - block: collection
-    id: featured
+    id: posts
     content:
-      title: Featured Publications
+      title: Posts
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 1
+      # Filter on criteria
       filters:
         folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
+          - post
+        author: ""
+        category: ""
+        tag: ""
         exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: asc
     design:
+      # Choose a layout view
+      view: compact
       columns: '2'
-      view: citation
+
   # - block: collection
   #   id: talks
   #   content:
