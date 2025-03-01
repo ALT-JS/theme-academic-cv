@@ -13,4 +13,6 @@ image:
 
 ## Contents
 
-- [Project1: The Simple Rasterizer]({{< relref "post/184pj1" >}})
+- [Project 1: The Simple Rasterizer]({{< relref "post/184pj1" >}})
+  
+- [Project 2: Geometric Modeling]({{< relref "post/184pj2" >}})

@@ -1,6 +1,6 @@
 ---
 title: 'COMPSCI 184 Project1: The Simple Rasterizer'
-date: '2025-02-18'
+date: '2025-02-04'
 draft: false
 subtitle: 'a functional vector graphics renderer that can take in simplified SVG'
 ---
