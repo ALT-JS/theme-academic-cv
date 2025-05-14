@@ -33,18 +33,19 @@ interests:
   - Deep Learning
   - Computer Vision
   - Large Language Models
+  - Embodied AI
 
 # Education to show in About widget
 education:
   courses:
-    - course: UCB COE Exchange program in Computer Science
+    - course: UCB GLOBE COE Exchange program in Computer Science
       institution: University of California, Berkeley
       year: 2024
     - course: Undergrad in Computer Science
       institution: ShanghaiTech University
       year: 2022
     - course: High school undergrad
-      institution: No.2 High School Of East China Normal University
+      institution: No.2 High school of East China Normal University
       year: 2019
 
 # Skills
@@ -121,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-I’m a University student of SIST in ShanghaiTech University. My research interests include Artificial Intelligence, Deep Learning, Computer Vision and LLMs. I have independently finished two small projects for CASTIC, Tencent Rhinobird High School Scientific Training Program and Intel ISEF from high school.
+I’m a University student of SIST in ShanghaiTech University. My research interests include Artificial Intelligence, Deep Learning, Computer Vision, 3D human Reconstruction / Generation, LLMs and Embodied AI.
 {style="text-align: justify;"}

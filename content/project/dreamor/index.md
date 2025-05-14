@@ -1,13 +1,13 @@
 ---
-title: A light-weight self-accomodate fire detection system
-summary: My small project that took part in Tencent Rhinobird High School Scientific Training Program in high school, uses light-weight neural network backbone, MobileNetV3 to detect fire, targeting for applications in portable devices and edge computing.
+title: "DREAMoR: Diffusion-based REconstruction And Motion prioR"
+summary: Learn a powerful motion prior with diffusion models, and use it to denoise, restore, and imagine better motion!
 # tags:
 #   - Deep Learning
-date: '2020-10-27T00:00:00Z'
-draft: true
+date: '2025-05-01T00:00:00Z'
+draft: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://jingfeng0705.github.io/DREAMoR2/dreamor.html'
 
 # image:
 #   caption: Photo by rawpixel on Unsplash
@@ -18,8 +18,8 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
+url_code: 'https://github.com/ALT-JS/DREAMoR'
+url_pdf: 'https://jingfeng0705.github.io/DREAMoR2/static/assets/DREAMoR.pdf'
 url_slides: ''
 url_video: ''
 
